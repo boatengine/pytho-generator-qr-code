@@ -1,0 +1,4 @@
+import qrcode
+
+qrimg = qrcode.make("https://forms.gle/krE7Fk97gfpAdSZ69")
+qrimg.save("wit.jpg")
